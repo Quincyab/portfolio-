@@ -69,48 +69,50 @@
     width: 100%;
    }
 /* hero-section */
-   #header{
+   #hero{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     background: #ababab;
+    padding: 10px 10%;
    }
 
-   .header-text{
+   .hero-text{
     flex-basis: 40%;
     margin-top: 20px;
     font-size: 30px;
+    padding-top: 50px;
    } 
 
-   .header-text h1{
+   .hero-text h1{
     font-size: 60px;
     margin-top: 20px;
    }
 
-   .header-text h1 span{
+   .hero-text h1 span{
     color: #ff004f;
    }
 
-   .header-col-3{
+   .hero-col-3{
     flex-basis:35%;
    }
 
-   .header-col-3 img{
+   .hero-col-3 img{
     width: 100%;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-right: 40px;
     border-radius: 15px;
    }
 
-   .header-col-1{
+   .hero-col-1{
    flex-basis: 15%;
   }
 
-   .header-col-1 i{
+   .hero-col-1 i{
     padding-left: 30px;
 }
 
-.header-col-1 i{
+.hero-col-1 i{
     text-decoration: none;
     margin: 15px;
     padding: 15px;
@@ -118,7 +120,7 @@
     width: 150px;
 }
 
-.header-col-1.social-icons a{
+.hero-col-1.social-icons a{
     display: inline-block;
     margin-top: 40px;
     font-size: 70px;
@@ -130,7 +132,6 @@
     justify-content: center;
     align-items: center;
     background:#222;
-    height: 100vh;
 }
 
 .skill h1{
@@ -506,31 +507,37 @@ nav .fas{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    #header{
+    #hero{
         background-image: url(pof.img.jpg);
     }
-    .header-text{
+    .hero-text{
         margin-top: 30px;
         font-size: 16px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    .header-col-1{
+    .hero-col-1{
         font-size: 20px;
     }
-    .header-col-1{
+    .hero-col-1{
         flex-basis: 100%;
     }
-    .header-col-1 i{
+    .hero-col-1 i{
         text-decoration: none;
         margin: 15px;
         padding: 15px;
         color: #342963;
         width: 30px;
     }
-     .header-text, .header-col-3{
+     .hero-text, .hero-col-3{
         flex-basis: 100%;
         padding: 20px;
+    }
+    nav .fa-bars{
+        display: block;
+        font-size: 25px;
+        color: white;
+        padding-right: 40px;
     }
     nav .fas{
         display: block;
