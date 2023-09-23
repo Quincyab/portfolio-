@@ -72,7 +72,7 @@
    #hero{
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     background: #ababab;
     padding: 10px 10%;
    }
